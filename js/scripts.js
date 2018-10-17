@@ -3,8 +3,8 @@ $(document).ready(function() {
     var recipientInput = $("input#recipient").val();
     var senderInput = $("input#sender").val();
 
-    $(".recipient").text(recipientInput);
-    $(".sender").text(senderInput);
+    $(".recipient").text(recipientInput.toUpperCase());
+    $(".sender").text(senderInput.toUpperCase());
 
     $("#letter").show();
 
